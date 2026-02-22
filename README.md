@@ -31,8 +31,6 @@ The bot uses an **LLM agent with tool-calling** pattern:
 
 For receipt photos, GPT-4o vision extracts structured data from the image, then the system fuzzy-matches items to canonical products in the database.
 
-See [SPECS.md](SPECS.md) for the full technical specification.
-
 ## Tech Stack
 
 - **Python 3.12+** with asyncio
